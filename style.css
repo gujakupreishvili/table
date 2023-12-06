@@ -1,0 +1,207 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: hsla(0, 0%, 100%, 1);
+  overflow-x: hidden;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.search-number-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 16px;
+
+}
+.search-input-div{
+  position: relative;
+}
+.search-img{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+.search-input-div input{
+  padding-left: 30px;
+}
+.show{
+  font-family: Montserrat;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 12px;
+}
+.product-num{
+  width: 43px;
+  height: 31px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 12px;
+}
+.add-customerbtn{
+  width: 139px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  background-color:hsla(248, 73%, 60%, 1);
+}
+.add-customerbtn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-family: Montserrat;
+  font-size: 12px;
+  margin-right: 16px;
+}
+.add-customerbtn img{
+  margin-left: 7px;
+  margin-right: 5px;
+}
+.search-input-div input{
+  margin-left: 12px;
+  border-radius: 8px;
+  border: 1px;
+  border-color:hsla(0, 0%, 62%, 1);
+  width: 218px;
+  height: 32px;
+  font-family: Montserrat;
+  font-size: 12px;
+  color: hsla(0, 0%, 62%, 1);
+}
+th{
+  width: 120px;
+  color:hsla(0, 0%, 0%, 1);
+  font-family:Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+th span{
+  margin-left: 20px;
+}
+tr{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  height: 64px;
+  
+}
+.product-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.product-div img{
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+.product-div p{
+  font-family: Montserrat;
+  font-size: 14px;
+  color: hsla(0, 0%, 0%, 1);
+  width: 80px;
+}
+.action-div{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  margin-left: 24px;
+}
+td{
+  width: 120px;
+  color:#000;
+  font-family:Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 16px;
+  margin-left: 16px;
+  text-align: center;
+}
+.grey-tr{
+  background-color: hsla(248, 80%, 98%, 1);
+  width: 100%;
+}
+.deliver{
+  background-color: hsla(146, 54%, 95%, 1);
+  color: hsla(148, 65%, 35%, 1);
+  font-family: Montserrat;
+  border: none;
+  width: 83px;
+  height: 33px;
+  margin-left: -16px;
+  border-radius: 22px;
+}
+.laptope-p{
+  margin-left: 5px;
+}
+.hat-p{
+  margin-left: -15px;
+}
+.process{
+  font-family: Montserrat;
+  border: none;
+  width: 71px;
+  height: 33px;
+  margin-left: -16px;
+  border-radius: 22px;
+  background-color: hsla(31, 93%, 95%, 1);
+  color: hsla(29, 100%, 40%, 1);
+}
+.Canceled{
+  width: 81px;
+  height: 31px;
+  border-radius: 22px;
+  background-color:  hsla(357, 71%, 95%, 1);
+  color: hsla(358, 85%, 35%, 1);
+  border: none;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 12px;
+  padding-bottom: 16px;
+}
+footer p{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: hsla(0, 0%, 62%, 1);
+}
+.first-page{
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsla(248, 73%, 60%, 1);
+  color: white;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+}
+.next-page{
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsla(0, 0%, 88%, 1);
+  color: hsla(0, 0%, 0%, 1);
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+
+}
