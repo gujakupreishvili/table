@@ -1,0 +1,44 @@
+.next-page{
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsla(248, 73%, 60%, 1);
+  color: white;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+}
+.next-page:hover{
+  background-color: hsla(248, 73%, 60%, 1);
+}
+.first-page{
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsla(0, 0%, 88%, 1);
+  color: hsla(0, 0%, 0%, 1);
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+}
+.first-page:hover{
+  background-color: rgb(116, 116, 116);
+  transition: 0.6s;
+  color: white;
+
+}
+.next{
+  display: none;
+}
+.previous{
+  display: block;
+  cursor: pointer;
+}
+.previous:hover{
+  color: black;
+  transition: 0.3s;
+}

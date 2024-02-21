@@ -91,8 +91,7 @@ tr{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  gap: 15px;
+  justify-content: flex-start;
   height: 64px;
   
 }
@@ -100,6 +99,7 @@ tr{
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 300px;
 }
 .product-div img{
   width: 32px;
@@ -203,5 +203,102 @@ footer p{
   font-family: Montserrat;
   font-weight: 500;
   font-size: 12px;
-
+  cursor: pointer;
+}
+.next-page:hover{
+  background-color: rgb(116, 116, 116);
+  transition: 0.6s;
+  color: white
+}
+.next{
+  cursor: pointer;
+}
+.next:hover{
+  color: black;
+  transition: 0.3s;
+}
+.product-th{
+  margin-right: 134px;
+}
+.category{
+  margin-left: 134px;
+}
+.hat-p{
+  width: 200px;
+  padding-left: 15px;
+  text-align: start;
+}
+.previous{
+  display: none;
+}
+.mode-div{
+  display: flex;
+  gap: 25px;
+}
+label{
+  width: 70px;
+  height: 35px;
+  position: relative;
+  background-color: #ebebeb;
+  border-radius: 200px;
+  box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4) inset 0px -5px -15px rgba(255,255,255,0.4);
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 2;
+}
+label::after{
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: linear-gradient(180deg,#ffcc89,#db4b08);
+  border-radius: 25px;
+  box-shadow: inset 0px 5px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  z-index: 2;
+}
+.checkbox-inp{
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.checkbox-inp:checked + label{
+  background: #242424;
+}
+.checkbox-inp:checked + label:after{
+  left: 95%;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg,#777,#3a4a3a);
+}
+label:active:after{
+  width: 30px;
+}
+.parent-selector .fa-regular.fa-sun,
+.parent-selector .fa-solid.fa-moon {
+  z-index: 200;
+  fill: white;
+}
+label .fa-regular.fa-sun{
+  position: absolute;
+  left: 8%;
+  top: 23%;
+}
+label .fa-solid.fa-moon {
+  position: absolute;
+  top: 20%;
+  left: 75%;
+}
+.dark{
+  background-color: #1D1E42;
+  color: white;
+}
+.dark .grey-tr{
+  background-color: #26264F;
+}
+.dark p,
+.dark th,
+.dark td{
+  color: white;
 }
